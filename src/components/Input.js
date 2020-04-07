@@ -1,7 +1,6 @@
 import Observer from "../lib/Observer";
 
 class Input extends Observer {
-    // Passing in our state object and setting it as a class property.
     constructor(state = {}) {
         super();
         this.appState = state;
@@ -30,7 +29,6 @@ class Input extends Observer {
         this.render(state, "form");
     }
 
-    // Bind an event on submit for the add user form.
     bindEvents() {
         const form = document.getElementById("textarea");
         form.addEventListener("input", e => {

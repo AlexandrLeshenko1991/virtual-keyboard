@@ -1,8 +1,6 @@
 import Observer from "../lib/Observer";
-import settings from "../utils/settings";
 
 class Keyboard extends Observer {
-    // Passing in our state object and setting it as a class property.
     constructor(state = {}) {
         super();
         this.appState = state;
@@ -49,7 +47,7 @@ class Keyboard extends Observer {
         this.render(state, "key-wrap");
     }
 
-    // Добавить событие на клик
+
     bindEvents() {
         let keyboardWrap = document.getElementById("key-wrap");
         let btnKeyboard = keyboardWrap.querySelectorAll('button')
