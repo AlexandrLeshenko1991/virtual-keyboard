@@ -8,6 +8,7 @@ import Container from "./components/Container";
 import KeyboardClick from "./components/KeyboardClick";
 import LangContainet from "./components/LangContainet";
 
+localStorage.setItem('lang', 'ru');
 
 const AppState = new State(); // создаем клас состояния
 
