@@ -1,7 +1,8 @@
-// Масив клавиатуры
+
+
 export default [
     {
-        rus: 'ё', en: '`', upRus: 'Ё', upEn: '~', code: 'Backquote' , active: false
+        rus: 'ё', en: '`', upRus: 'Ё', upEn: '~', code: 'Backquote', active: false
     },
     {
         rus: '1', en: '1', upRus: '!', upEn: '!', code: 'Digit1', active: false
@@ -40,7 +41,13 @@ export default [
         rus: '=', en: '=', upRus: '+', upEn: '+', code: 'Equal', active: false
     },
     {
-        rus: 'Backspace', en: 'Backspace', upRus: 'Backspace', upEn: 'Backspace', code: 'Backspace', active: false, br: true
+        rus: 'Backspace',
+        en: 'Backspace',
+        upRus: 'Backspace',
+        upEn: 'Backspace',
+        code: 'Backspace',
+        active: false,
+        br: true
     },
     {
         rus: 'Tab', en: 'Tab', upRus: 'Tab', upEn: 'Tab', code: 'Tab', active: false
@@ -157,10 +164,21 @@ export default [
         rus: '.', en: '/', upRus: ',', upEn: '?', code: 'Slash', active: false
     },
     {
-        rus: 'ShiftRight', en: 'ShiftRight', upRus: 'ShiftRight', upEn: 'ShiftRight', code: 'ShiftRight', active: false, br: true
+        rus: 'ShiftRight',
+        en: 'ShiftRight',
+        upRus: 'ShiftRight',
+        upEn: 'ShiftRight',
+        code: 'ShiftRight',
+        active: false,
+        br: true
     },
     {
-        rus: 'ControlLeft', en: 'ControlLeft', upRus: 'ControlLeft', upEn: 'ControlLeft', code: 'ControlLeft', active: false
+        rus: 'ControlLeft',
+        en: 'ControlLeft',
+        upRus: 'ControlLeft',
+        upEn: 'ControlLeft',
+        code: 'ControlLeft',
+        active: false
     },
     {
         rus: 'AltLeft', en: 'AltLeft', upRus: 'AltLeft', upEn: 'AltLeft', code: 'AltLeft', active: false
@@ -172,7 +190,12 @@ export default [
         rus: 'AltRight', en: 'AltRight', upRus: 'AltRight', upEn: 'AltRight', code: 'AltRight', active: false
     },
     {
-        rus: 'ControlRight', en: 'ControlRight', upRus: 'ControlRight', upEn: 'ControlRight', code: 'ControlRight', active: false
+        rus: 'ControlRight',
+        en: 'ControlRight',
+        upRus: 'ControlRight',
+        upEn: 'ControlRight',
+        code: 'ControlRight',
+        active: false
     },
     {
         rus: '←', en: '←', upRus: '←', upEn: '←', code: 'ArrowLeft', active: false
