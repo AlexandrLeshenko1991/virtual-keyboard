@@ -1,7 +1,5 @@
-import Observer from "../lib/Observer";
 
 class KeyboardClick {
-    // Passing in our state object and setting it as a class property.
     constructor(state = {}) {
         this.appState = state;
         document.addEventListener('keydown', this.keydownEvent.bind(this))

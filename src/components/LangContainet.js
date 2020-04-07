@@ -1,7 +1,6 @@
 import Observer from "../lib/Observer";
 
 class LangContainet extends Observer {
-    // Passing in our state object and setting it as a class property.
     constructor(state = {}) {
         super();
         this.appState = state;
