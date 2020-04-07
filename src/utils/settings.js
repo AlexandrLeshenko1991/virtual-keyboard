@@ -1,5 +1,5 @@
 export default {
-    lang: localStorage.getItem('lang') ? localStorage.getItem('lang') : localStorage.setItem('lang', 'ru'),
+    lang: localStorage.getItem('lang'),
     toUpper: false,
     cursorPosition: false,
     changeLangArray: []
