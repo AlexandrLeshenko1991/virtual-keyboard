@@ -135,17 +135,19 @@ class KeyboardClick {
     getValueKey(eventCode, state) {
         let val = state.keyboard.filter(i => event.code === i.code);
 
-        if (state.setting.lang === 'ru') {
-            if (state.setting.toUpper) {
-                val = val[0].upRus
+        if (val[0]){
+            if (state.setting.lang === 'ru') {
+                if (state.setting.toUpper) {
+                    val = val[0].upRus
+                } else {
+                    val = val[0].rus
+                }
             } else {
-                val = val[0].rus
-            }
-        } else {
-            if (state.setting.toUpper) {
-                val = val[0].upEn
-            } else {
-                val = val[0].en
+                if (state.setting.toUpper) {
+                    val = val[0].upEn
+                } else {
+                    val = val[0].en
+                }
             }
         }
         return val
