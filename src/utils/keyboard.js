@@ -1,5 +1,5 @@
 
-
+    
 export default [
     {
         rus: 'ё', en: '`', upRus: 'Ё', upEn: '~', code: 'Backquote', active: false
